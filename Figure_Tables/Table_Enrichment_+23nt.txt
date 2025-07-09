@@ -1,0 +1,7 @@
+ID	Type	log2FC
+Mammoth1	Exonic	4.83
+Mammoth1	Intronic	-1.96
+Mammoth4	Exonic	5.64
+Mammoth4	Intronic	-2.46
+Mammoth10	Exonic	4.68
+Mammoth10	Intronic	-0.68
