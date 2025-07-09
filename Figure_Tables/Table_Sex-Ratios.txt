@@ -1,0 +1,11 @@
+ID	Ratio
+Mammoth1	0.5234
+Mammoth2	0.4936
+Mammoth3	0.5372
+Mammoth4	0.4632
+Mammoth5	0.5484
+Mammoth6	0.98
+Mammoth7	0.4156
+Mammoth8	NA
+Mammoth9	NA
+Mammoth10	0.8746
