@@ -12,7 +12,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-USP9Y = read.table("Figure2A_Sample1_Trimmed_Collapsed_UMIheader_Bowtie2_AsianElephant_Transcriptome_PC-NC-miRNAs_UMIDEDUP_CLEAN_proteincoding_PerBase_Depth_Coverage_LOC126069875_USP9Y.txt")
+USP9Y = read.table("Figure2A_Table.txt")
 USP9Y$ID = rep("Mammoth1", nrow(USP9Y))
 
 
