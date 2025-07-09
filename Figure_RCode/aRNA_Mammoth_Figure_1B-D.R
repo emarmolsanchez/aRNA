@@ -12,7 +12,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Kraken = read.delim("Figure1BD_Table_KrakenUniq_Counts_Mammoth_Afrotheria_level.txt", header=T)
+Kraken = read.delim("Figure1BD_Table.txt", header=T)
 Kraken$ID = factor(Kraken$ID, levels=c("Mammoth1", "Mammoth2", "Mammoth3", "Mammoth4", "Mammoth5", 
                                        "Mammoth6", "Mammoth7", "Mammoth8", "Mammoth9", "Mammoth10"))
 Kraken$Type = factor(Kraken$Type, levels=c("aDNA", "aRNA"))
