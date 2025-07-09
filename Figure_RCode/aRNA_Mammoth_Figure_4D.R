@@ -15,7 +15,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-miRNAs_Human_Elephant_Mammoth_Dog_Thy_tmm_log2 = read.table("Atlas_Human_filtered_Dog_Thy_Elephant_Mammoth_log2TMM_Normalized_Expression_microRNAs.txt")
+miRNAs_Human_Elephant_Mammoth_Dog_Thy_tmm_log2 = read.table("Figure4D_Table.txt")
 
 #Define tissue and color identities
 tissue = c(rep("Cartilage", 5), rep("Skeletal muscle", 4), rep("Heart", 4), rep("Skin", 8), rep("Plasma", 6), rep("Lung", 4), rep("Brain", 4), rep("Liver", 4), rep("Ovary", 4),
