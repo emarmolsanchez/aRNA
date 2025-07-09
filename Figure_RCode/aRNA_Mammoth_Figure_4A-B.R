@@ -12,11 +12,11 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Count_Cov_PC = read.table("Figure4A_Sample1_Trimmed_Collapsed_UMIheader_Bowtie2_AsianElephant_Transcriptome_PC-NC-miRNAs_UMIDEDUP_CLEAN_proteincoding_Count-Coverage_plus_Mitochondrial_mRNAs.txt",
+Count_Cov_PC = read.table("Figure4A_Table.txt",
                           header=F)
 colnames(Count_Cov_PC) = c("ID","Gene","Count", "Coverage")
 
-Count_Cov_NC = read.table("Figure4B_Sample1_Trimmed_Collapsed_UMIheader_Bowtie2_AsianElephant_Transcriptome_PC-NC-miRNAs_UMIDEDUP_CLEAN_noncoding_Count-Coverage_plus_Mitochondrial_rRNAs-tRNAs.txt",
+Count_Cov_NC = read.table("Figure4B_Table.txt",
                           header=F)
 colnames(Count_Cov_NC) = c("ID","Gene", "Type", "Count", "Coverage")
 
