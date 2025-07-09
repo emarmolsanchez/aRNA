@@ -15,7 +15,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Atlas_Human_filtered_Dog_Thy_Elephant_Mammoth_tmm_log2 = read.table("Figure4C_Atlas_Human_filtered_Dog_Thy_Elephant_Mammoth_log2TMM_Normalized_Expression_mRNAs.txt")
+Atlas_Human_filtered_Dog_Thy_Elephant_Mammoth_tmm_log2 = read.table("Figure4C_Table.txt")
 
 #Define tissue and color identities
 tissue = c(rep("Skeletal muscle", 6), rep("Heart", 9), rep("Skin", 6), rep("Liver", 5), rep("Lung", 8), rep("Kidney", 4),
