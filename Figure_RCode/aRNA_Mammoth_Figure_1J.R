@@ -12,7 +12,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Enrich = read.table("Figure1J_Table_Enrichment_+23nt.txt", header=T)
+Enrich = read.table("Figure1J_Table.txt", header=T)
 Enrich$Type = factor(Enrich$Type, levels=c("Exonic", "Intronic"))
 Enrich$ID = factor(Enrich$ID, levels=c("Mammoth1", "Mammoth4", "Mammoth10"))
 
