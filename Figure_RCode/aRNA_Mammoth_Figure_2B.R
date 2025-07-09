@@ -9,14 +9,14 @@
 library(ggplot2)
 library(scales)
 
-setwd("/Volumes/Seagate Bas/Mammoth_aRNA/Mammoth_Y_SRY/mappingsSRY/") #Insert path to Figure auxiliary files
+setwd("") #Insert path to Figure auxiliary files
 
 
 
-Ema_4729 = read.table("Emaximus-4729_NP_0002.SRR19343753_Yreads_mapped_sorted_rmdup_q20_rg_SRYreads_PerBase_Depth_Coverage.txt")
-L386 = read.table("Mammuthus-L386_Yreads_mapped_sorted_rmdup_q20_rg_SRYreads_PerBase_Depth_Coverage.txt")
-L414 = read.table("Mammuthus-L414_Yreads_mapped_sorted_rmdup_q20_rg_SRYreads_PerBase_Depth_Coverage.txt")
-Yuka = read.table("Mammuthus-Yuka_Yreads_mapped_sorted_rmdup_q20_rg_SRYreads_PerBase_Depth_Coverage.txt")
+Ema_4729 = read.table("Figure2B_Table1.txt")
+L386 = read.table("Figure2B_Table2.txt")
+L414 = read.table("Figure2B_Table3.txt")
+Yuka = read.table("Figure2B_Table4.txt")
 
 Ema_4729$V4 = Ema_4729$V3/119
 L386$V4 = L386$V3/146
@@ -49,7 +49,7 @@ Table_cov$ID = factor(Table_cov$ID, levels=c("Yuka", "L386", "L414", "Asian elep
 
 
 
-setwd("~/Documents/Mammoth_aRNA/") #Insert path to output Figure PDFs
+setwd("") #Insert path to output Figure PDFs
 
 #Figure 2B
 pdf("aRNA_Mammoth_Figure_2B.pdf", height = 25/25.4, width = 82.5/25.4)
