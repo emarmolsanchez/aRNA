@@ -8,7 +8,7 @@
 
 library(ggplot2)
 
-setwd("/Volumes/Seagate Bas/Mammoth_aRNA/Tables_Figures/") #Insert path to Figure auxiliary files
+setwd("") #Insert path to Figure auxiliary files
 
 
 
