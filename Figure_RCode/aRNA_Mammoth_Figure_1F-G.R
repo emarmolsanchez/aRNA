@@ -13,8 +13,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Align = read.table("Figure1F_Table_Alignment_Mismatch_Comparison.txt", header=T)
-Align2 = read.table("Figure1G_Table_Alignment_Read_Length_Distribution.txt", header=T)
+Align = read.table("Figure1F_Table.txt", header=T)
+Align2 = read.table("Figure1G_Table.txt", header=T)
 
 
 
