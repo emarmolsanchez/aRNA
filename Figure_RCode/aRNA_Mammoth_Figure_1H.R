@@ -12,7 +12,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Length_Count = read.table("Figure1H_Table_Exonic-Intronic-Intergenic_Counts_Increasing_Length.txt", header=T)
+Length_Count = read.table("Figure1H_Table.txt", header=T)
 Length_Count$ID = factor(Length_Count$ID, levels=c("Mammoth1", "Mammoth4", "Mammoth10"))
 Length_Count$Type = factor(Length_Count$Type, levels=c("Exonic", "Intronic", "Intergenic"))
 
