@@ -12,7 +12,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Age_Length = read.table("Figure1E_Table_Age_vs_Fragment_Length.txt", header=T)
+Age_Length = read.table("Figure1E_Table.txt", header=T)
 
 
 
