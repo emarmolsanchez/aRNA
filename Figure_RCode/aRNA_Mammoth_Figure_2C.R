@@ -16,7 +16,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Table_sex = read.table("Figure2C_Table_Sex-Ratios.txt", header=T)
+Table_sex = read.table("Figure2C_Table.txt", header=T)
 Table_sex$ID = factor(Table_sex$ID, levels=c("Mammoth1", "Mammoth2", "Mammoth3", "Mammoth4", "Mammoth5", 
                                              "Mammoth6", "Mammoth7", "Mammoth8", "Mammoth9", "Mammoth10"))
 
