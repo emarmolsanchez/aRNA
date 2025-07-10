@@ -109,7 +109,7 @@ legend_border = c("#DB6443","plum","#F0C57F","goldenrod3", "goldenrod4", "lightb
 
 
 
-setwd("~/Documents/Mammoth_aRNA/") #Insert path to output Figure PDFs
+setwd("") #Insert path to output Figure PDFs
 
 #Figure S7C
 pdf("aRNA_Mammoth_Figure_S7C.pdf", height = 70/25.4, width = 82.5/25.4)
