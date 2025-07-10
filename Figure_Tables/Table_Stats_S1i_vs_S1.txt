@@ -1,0 +1,16 @@
+Type	Mammoth 1	Mammoth 1 deep
+Raw sequences	62919662	554528624
+Trimmed sequences	27014065	229463891
+PCR-deduplicated	3504879	16329980
+Mapped & UMI-deduplicated	220180	608726
+Mapped to Mitochondrial genome	1334	1867
+Mapped to Nuclear genome	218846	606859
+Mapped to gene loci	150138	382734
+Mapped to exonic loci	126743	313863
+Mapped to intronic loci	23210	64693
+Mapped to intergenic regions	68708	224125
+Mapped to Transcriptome & UMI-deduplicated	127397	317921
+Mapped to PC transcripts	15486	23847
+Mapped to NC transcripts	111911	294074
+Number of PC loci with Coverage ≥5%	292	342
+Number of NC loci with Coverage ≥5%	610	906
