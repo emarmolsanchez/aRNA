@@ -1,0 +1,22 @@
+ID	Type	Class	Count	Total
+Mammoth1	NC	Weak	171	127397
+Mammoth1	NC	Strong	111740	127397
+Mammoth2	NC	Weak	24	1373
+Mammoth2	NC	Strong	767	1373
+Mammoth3	NC	Weak	62	6685
+Mammoth3	NC	Strong	3631	6685
+Mammoth4	NC	Weak	52	43328
+Mammoth4	NC	Strong	41680	43328
+Mammoth5	NC	Weak	18	1296
+Mammoth5	NC	Strong	943	1296
+Mammoth6	NC	Weak	462	25568
+Mammoth6	NC	Strong	13334	25568
+Mammoth7	NC	Weak	101	38222
+Mammoth7	NC	Strong	37833	38222
+Mammoth8	NC	Weak	6	778
+Mammoth8	NC	Strong	628	778
+Mammoth9	NC	Weak	13	1035
+Mammoth9	NC	Strong	811	1035
+Mammoth10	NC	Weak	1888	35624
+Mammoth10	NC	Strong	16136	35624
+
