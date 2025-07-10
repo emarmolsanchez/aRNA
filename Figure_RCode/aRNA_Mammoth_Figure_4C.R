@@ -79,8 +79,6 @@ Dog_predict$Shape = factor(c(rep(23,3), rep(21, 2)))
 Dog_predict$UMAP1 = as.numeric(Dog_predict$UMAP1)
 Dog_predict$UMAP2 = as.numeric(Dog_predict$UMAP2)
 
-
-UMAP_table_final = rbind(UMAP_table, Elephant_predict, Mammoth_predict, Thy_predict, Dog_predict)
 UMAP_table = rbind(UMAP_table, Elephant_predict, Mammoth_predict)
 UMAP_table$Tissue = factor(UMAP_table$Tissue, levels=c("Skeletal muscle", "Heart", "Skin", "Liver", "Lung", "Kidney", "Brain", "Testis", "Ovary",
                                                        "Placenta", "Cartilage", "Adipose tissue", "Bone marrow", "Lymph node", "Thyroid gland", "Salivary gland"))
