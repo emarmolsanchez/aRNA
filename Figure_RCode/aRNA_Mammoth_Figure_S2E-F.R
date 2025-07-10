@@ -14,7 +14,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 #Load the RNA data
-data = read.table("FigureS2E_Table1.txt", header=F)
+data = read.table("Figure_S2E_Table1.txt", header=F)
 colnames(data) = c("name", "chr", "start", "end", "counts")
 #Annotate the chromosomes
 chr_alt = paste0("Chr",seq(1:27))
@@ -35,7 +35,7 @@ data = rbind(data_somatic, data_sex)
 data$Type = rep("aRNA", nrow(data))
 
 #Load the DNA data
-datar = read.table("FigureS2E_Table2.txt", header=F)
+datar = read.table("Figure_S2E_Table2.txt", header=F)
 colnames(datar) = c("name", "chr", "start", "end", "counts")
 #Annotate the chromosomes
 chr_alt = paste0("Chr",seq(1:27))
@@ -121,7 +121,7 @@ dev.off()
 
 
 #Load the RNA data
-data = read.table("FigureS2F_Table1.txt", header=F)
+data = read.table("Figure_S2F_Table1.txt", header=F)
 colnames(data) = c("name", "chr", "start", "end", "counts")
 #Annotate the chromosomes
 chr_alt = paste0("Chr",seq(1:27))
@@ -142,7 +142,7 @@ data = rbind(data_somatic, data_sex)
 data$Type = rep("aRNA", nrow(data))
 
 #Load the DNA data
-datar = read.table("FigureS2F_Table2.txt", header=F)
+datar = read.table("Figure_S2F_Table2.txt", header=F)
 colnames(datar) = c("name", "chr", "start", "end", "counts")
 #Annotate the chromosomes
 chr_alt = paste0("Chr",seq(1:27))
