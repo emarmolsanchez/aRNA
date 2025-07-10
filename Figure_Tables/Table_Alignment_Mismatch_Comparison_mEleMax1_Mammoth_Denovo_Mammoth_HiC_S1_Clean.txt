@@ -1,0 +1,145 @@
+Length	Mismatch	Reference
+18	0.04528	Mammoth 1 de novo
+19	0.04182	Mammoth 1 de novo
+20	0.03445	Mammoth 1 de novo
+21	0.02865	Mammoth 1 de novo
+22	0.0259	Mammoth 1 de novo
+23	0.02302	Mammoth 1 de novo
+24	0.02157	Mammoth 1 de novo
+25	0.02043	Mammoth 1 de novo
+26	0.01939	Mammoth 1 de novo
+27	0.01738	Mammoth 1 de novo
+28	0.01717	Mammoth 1 de novo
+29	0.02663	Mammoth 1 de novo
+30	0.02622	Mammoth 1 de novo
+31	0.02643	Mammoth 1 de novo
+32	0.02616	Mammoth 1 de novo
+33	0.02742	Mammoth 1 de novo
+34	0.02436	Mammoth 1 de novo
+35	0.02322	Mammoth 1 de novo
+36	0.02511	Mammoth 1 de novo
+37	0.02407	Mammoth 1 de novo
+38	0.02662	Mammoth 1 de novo
+39	0.03564	Mammoth 1 de novo
+40	0.03494	Mammoth 1 de novo
+41	0.03421	Mammoth 1 de novo
+42	0.03476	Mammoth 1 de novo
+43	0.03607	Mammoth 1 de novo
+44	0.03771	Mammoth 1 de novo
+45	0.03071	Mammoth 1 de novo
+46	0.032	Mammoth 1 de novo
+47	0.0354	Mammoth 1 de novo
+48	0.03776	Mammoth 1 de novo
+49	0.04435	Mammoth 1 de novo
+50	0.04124	Mammoth 1 de novo
+51	0.04367	Mammoth 1 de novo
+52	0.04172	Mammoth 1 de novo
+53	0.03491	Mammoth 1 de novo
+54	0.04302	Mammoth 1 de novo
+55	0.04031	Mammoth 1 de novo
+56	0.04065	Mammoth 1 de novo
+57	0.04202	Mammoth 1 de novo
+58	0.04069	Mammoth 1 de novo
+59	0.04302	Mammoth 1 de novo
+60	0.0458	Mammoth 1 de novo
+61	0.05262	Mammoth 1 de novo
+62	0.05309	Mammoth 1 de novo
+63	0.07108	Mammoth 1 de novo
+64	0.07144	Mammoth 1 de novo
+65	0.05568	Mammoth 1 de novo
+18	0.04755	Mammoth 10 3D-guided
+19	0.04452	Mammoth 10 3D-guided
+20	0.03734	Mammoth 10 3D-guided
+21	0.03343	Mammoth 10 3D-guided
+22	0.02973	Mammoth 10 3D-guided
+23	0.02349	Mammoth 10 3D-guided
+24	0.02243	Mammoth 10 3D-guided
+25	0.02074	Mammoth 10 3D-guided
+26	0.01932	Mammoth 10 3D-guided
+27	0.01409	Mammoth 10 3D-guided
+28	0.01496	Mammoth 10 3D-guided
+29	0.02331	Mammoth 10 3D-guided
+30	0.02352	Mammoth 10 3D-guided
+31	0.02295	Mammoth 10 3D-guided
+32	0.02378	Mammoth 10 3D-guided
+33	0.02619	Mammoth 10 3D-guided
+34	0.02562	Mammoth 10 3D-guided
+35	0.02558	Mammoth 10 3D-guided
+36	0.02599	Mammoth 10 3D-guided
+37	0.02629	Mammoth 10 3D-guided
+38	0.02769	Mammoth 10 3D-guided
+39	0.03379	Mammoth 10 3D-guided
+40	0.0331	Mammoth 10 3D-guided
+41	0.03141	Mammoth 10 3D-guided
+42	0.03005	Mammoth 10 3D-guided
+43	0.03504	Mammoth 10 3D-guided
+44	0.03119	Mammoth 10 3D-guided
+45	0.02984	Mammoth 10 3D-guided
+46	0.03185	Mammoth 10 3D-guided
+47	0.03304	Mammoth 10 3D-guided
+48	0.02998	Mammoth 10 3D-guided
+49	0.03807	Mammoth 10 3D-guided
+50	0.03628	Mammoth 10 3D-guided
+51	0.04154	Mammoth 10 3D-guided
+52	0.03814	Mammoth 10 3D-guided
+53	0.03106	Mammoth 10 3D-guided
+54	0.03704	Mammoth 10 3D-guided
+55	0.03563	Mammoth 10 3D-guided
+56	0.03247	Mammoth 10 3D-guided
+57	0.035	Mammoth 10 3D-guided
+58	0.03197	Mammoth 10 3D-guided
+59	0.03073	Mammoth 10 3D-guided
+60	0.0301	Mammoth 10 3D-guided
+61	0.03839	Mammoth 10 3D-guided
+62	0.04072	Mammoth 10 3D-guided
+63	0.04139	Mammoth 10 3D-guided
+64	0.04141	Mammoth 10 3D-guided
+65	0.03311	Mammoth 10 3D-guided
+18	0.04586	mEleMax1
+19	0.04244	mEleMax1
+20	0.03433	mEleMax1
+21	0.0306	mEleMax1
+22	0.02777	mEleMax1
+23	0.0244	mEleMax1
+24	0.02347	mEleMax1
+25	0.02261	mEleMax1
+26	0.02206	mEleMax1
+27	0.01843	mEleMax1
+28	0.01906	mEleMax1
+29	0.02541	mEleMax1
+30	0.02593	mEleMax1
+31	0.02521	mEleMax1
+32	0.02601	mEleMax1
+33	0.02651	mEleMax1
+34	0.02653	mEleMax1
+35	0.02638	mEleMax1
+36	0.02995	mEleMax1
+37	0.03144	mEleMax1
+38	0.03163	mEleMax1
+39	0.03948	mEleMax1
+40	0.03907	mEleMax1
+41	0.03718	mEleMax1
+42	0.03721	mEleMax1
+43	0.03966	mEleMax1
+44	0.03708	mEleMax1
+45	0.0351	mEleMax1
+46	0.04059	mEleMax1
+47	0.0422	mEleMax1
+48	0.0358	mEleMax1
+49	0.04983	mEleMax1
+50	0.04401	mEleMax1
+51	0.04628	mEleMax1
+52	0.04333	mEleMax1
+53	0.02884	mEleMax1
+54	0.04468	mEleMax1
+55	0.04177	mEleMax1
+56	0.03719	mEleMax1
+57	0.03928	mEleMax1
+58	0.03587	mEleMax1
+59	0.0368	mEleMax1
+60	0.03721	mEleMax1
+61	0.04223	mEleMax1
+62	0.04088	mEleMax1
+63	0.04922	mEleMax1
+64	0.05000	mEleMax1
+65	0.04928	mEleMax1
