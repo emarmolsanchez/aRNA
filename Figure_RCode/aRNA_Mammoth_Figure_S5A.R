@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#      Figure S7A. Mammoth aRNA       #
+#      Figure S5A. Mammoth aRNA       #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -15,7 +15,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Atlas_Human_filtered_Dog_Thy_Elephant_Mammoth_tmm_log2 = read.table("Figure4C_Table.txt")
+Atlas_Human_filtered_Dog_Thy_Elephant_Mammoth_tmm_log2 = read.table("Figure_6A_Table.txt")
 
 #Define tissue and color identities
 tissue = c(rep("Skeletal muscle", 6), rep("Heart", 9), rep("Skin", 6), rep("Liver", 5), rep("Lung", 8), rep("Kidney", 4),
@@ -108,7 +108,7 @@ legend_border = c("#DB6443","plum","#F0C57F","goldenrod3", "goldenrod4", "lightb
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure S7A
+#Figure S5A
 pdf("aRNA_Mammoth_Figure_S7A.pdf", height = 70/25.4, width = 82.5/25.4)
 ggplot(UMAP_table, aes(x=UMAP1, y=UMAP2, fill=Color, starshape=Shape)) + 
   geom_star(size=UMAP_table$Size, color= color_final, alpha=UMAP_table$Alpha) + 
