@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#      Figures 4A-B. Mammoth aRNA     #
+#      Figures 5A-B. Mammoth aRNA     #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -12,11 +12,11 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Count_Cov_PC = read.table("Figure4A_Table.txt",
+Count_Cov_PC = read.table("Figure_5A_Table.txt",
                           header=F)
 colnames(Count_Cov_PC) = c("ID","Gene","Count", "Coverage")
 
-Count_Cov_NC = read.table("Figure4B_Table.txt",
+Count_Cov_NC = read.table("Figure_5B_Table.txt",
                           header=F)
 colnames(Count_Cov_NC) = c("ID","Gene", "Type", "Count", "Coverage")
 
@@ -30,7 +30,7 @@ Count_Cov_NC = subset(Count_Cov_NC, Count_Cov_NC$Coverage>=0.05)
 setwd("") #Insert path to output Figure PDFs
 
 #Figure 4A-B
-pdf("aRNA_Mammoth_Figure_4A.pdf", height = 50/25.4, width = 82.5/25.4)
+pdf("aRNA_Mammoth_Figure_5A.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(Count_Cov_PC, aes(x=Coverage, y=log10(Count+1))) +
   geom_point(size=1.5, color="#DB6443", alpha=0.5) +
   
@@ -57,7 +57,7 @@ dev.off()
 
 
 
-pdf("aRNA_Mammotn_Figure_4B.pdf", height = 50/25.4, width = 82.5/25.4)
+pdf("aRNA_Mammotn_Figure_5B.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(Count_Cov_NC, aes(x=Coverage, y=log10(Count+1))) +
   geom_point(size=1.5, color= "#DB6443", alpha=0.5) +
   
