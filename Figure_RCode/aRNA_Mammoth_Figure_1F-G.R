@@ -13,8 +13,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Align = read.table("Figure1F_Table.txt", header=T)
-Align2 = read.table("Figure1G_Table.txt", header=T)
+Align = read.table("Figure_1F_Table.txt", header=T)
+Align2 = read.table("Figure_1G_Table.txt", header=T)
 
 
 
