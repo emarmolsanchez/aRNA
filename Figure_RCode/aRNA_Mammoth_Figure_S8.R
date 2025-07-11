@@ -92,6 +92,9 @@ dev.off()
 
 
 
+setwd("") #Insert path to Figure auxiliary files
+
+
 
 UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
 XIRP2_Expr = read.table("Figure_S8_Table4.txt", row.names=1, header=T)
@@ -170,6 +173,9 @@ dev.off()
 
 
 
+
+
+setwd("") #Insert path to Figure auxiliary files
 
 
 
@@ -252,6 +258,9 @@ dev.off()
 
 
 
+setwd("") #Insert path to Figure auxiliary files
+
+
 
 UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
 NEB_Expr = read.table("Figure_S8_Table6.txt", row.names=1, header=T)
@@ -329,6 +338,9 @@ dev.off()
 
 
 
+
+
+setwd("") #Insert path to Figure auxiliary files
 
 
 
@@ -410,6 +422,9 @@ dev.off()
 
 
 
+setwd("") #Insert path to Figure auxiliary files
+
+
 
 UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
 TNNT1_Expr = read.table("Figure_S8_Table8.txt", row.names=1, header=T)
@@ -487,6 +502,9 @@ dev.off()
 
 
 
+
+
+setwd("") #Insert path to Figure auxiliary files
 
 
 
@@ -573,6 +591,9 @@ dev.off()
 
 
 
+
+
+setwd("") #Insert path to Figure auxiliary files
 
 
 
