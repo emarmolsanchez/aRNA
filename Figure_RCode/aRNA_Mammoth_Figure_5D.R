@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#       Figure S6B. Mammoth aRNA      #
+#        Figure 5D. Mammoth aRNA      #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -13,7 +13,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Atlas_melted = read.table("Figure_S6B_Table.txt", header=T)
+Atlas_melted = read.table("Figure_5D_Table.txt", header=T)
 Atlas_melted$variable = factor(Atlas_melted$variable, levels=c("Human_Stomach",
                                                                "Human_Illeum",
                                                                "Human_Jejunum",
@@ -40,7 +40,7 @@ Atlas_melted$genes = factor(Atlas_melted$genes, levels=genes)
 setwd("") #Insert path to output Figure PDFs
 
 #Figure S6B
-pdf("aRNA_Mammoth_Figure_S6B.pdf", height = 60/25.4, width = 165/25.4)
+pdf("aRNA_Mammoth_Figure_5D.pdf", height = 60/25.4, width = 165/25.4)
 ggplot(Atlas_melted, aes(x = genes, y = variable, fill = value)) +
   geom_tile(color = "grey60", lwd = 0.2, linetype = 1) +
   scale_fill_gradient(low = "white", high = "#DB6443") +
