@@ -134,7 +134,7 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure 4D
+#Figure 6B
 pdf("aRNA_Mammoth_Figure_6B.pdf", height = 70/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_small, aes(x=UMAP1, y=-UMAP2, fill=Color, starshape=Shape)) + 
   geom_star(size=UMAP_table_small$Size, color= color_final_small, alpha=UMAP_table_small$Alpha) + 
