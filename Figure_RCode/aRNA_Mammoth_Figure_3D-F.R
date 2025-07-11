@@ -23,7 +23,7 @@ Damage10 = read.table("Figure_3F_Table.txt", header=T)
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure S4D
+#Figure 3D
 pdf("aRNA_Mammoth_Figure_3D.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(data=Damage1) +
   geom_line(aes(x=z, y=CT5), color="red3", linewidth=0.5) +
@@ -56,7 +56,7 @@ dev.off()
 
 
 
-#Figure S4E
+#Figure 3E
 pdf("aRNA_Mammoth_Figure_3E.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(data=Damage4) +
   geom_line(aes(x=z, y=CT5), color="red3", linewidth=0.5) +
@@ -89,7 +89,7 @@ dev.off()
 
 
 
-#Figure S4F
+#Figure 3F
 pdf("aRNA_Mammoth_Figure_3F.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(data=Damage10) +
   geom_line(aes(x=z, y=CT5), color="red3", linewidth=0.5) +
