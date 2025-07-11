@@ -22,7 +22,7 @@ prob_S4 = read.table("Figure_3G_Table2.txt")
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure S4G1
+#Figure 3G1
 pdf("aRNA_Mammoth_Figure_3G1.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(prob_S1, aes(x = V2)) +
   stat_bin(geom = "bar", bins=200, fill="red3") +
@@ -53,7 +53,7 @@ dev.off()
 
 
 
-#Figure S4G2
+#Figure 3G2
 pdf("aRNA_Mammoth_Figure_3G2.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(prob_S4, aes(x = V2)) +
   stat_bin(geom = "bar", bins=100, fill="red3") +
