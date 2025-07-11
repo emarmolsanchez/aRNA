@@ -13,10 +13,10 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Ema_4729 = read.table("Figure2B_Table1.txt")
-L386 = read.table("Figure2B_Table2.txt")
-L414 = read.table("Figure2B_Table3.txt")
-Yuka = read.table("Figure2B_Table4.txt")
+Ema_4729 = read.table("Figure_2B_Table1.txt")
+L386 = read.table("Figure_2B_Table2.txt")
+L414 = read.table("Figure_2B_Table3.txt")
+Yuka = read.table("Figure_2B_Table4.txt")
 
 Ema_4729$V4 = Ema_4729$V3/119
 L386$V4 = L386$V3/146
