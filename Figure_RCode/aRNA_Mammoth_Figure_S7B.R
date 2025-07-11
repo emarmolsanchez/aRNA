@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#      Figure S7B. Mammoth aRNA       #
+#      Figure S5B. Mammoth aRNA       #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -15,7 +15,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-miRNAs_Human_Elephant_Mammoth_Dog_Thy_tmm_log2 = read.table("Figure4D_Table.txt")
+miRNAs_Human_Elephant_Mammoth_Dog_Thy_tmm_log2 = read.table("Figure_6B_Table.txt")
 
 #Define tissue and color identities
 tissue = c(rep("Cartilage", 5), rep("Skeletal muscle", 4), rep("Heart", 4), rep("Skin", 8), rep("Plasma", 6), rep("Lung", 4), rep("Brain", 4), rep("Liver", 4), rep("Ovary", 4),
@@ -129,8 +129,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure S7B
-pdf("aRNA_Mammoth_Figure_S7B.pdf", height = 75/25.4, width = 82.5/25.4)
+#Figure S5B
+pdf("aRNA_Mammoth_Figure_S5B.pdf", height = 75/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_small, aes(x=UMAP1, y=-UMAP2, fill=Color, starshape=Shape)) + 
   geom_star(size=UMAP_table_small$Size, color= color_final_small, alpha=UMAP_table_small$Alpha) + 
   
