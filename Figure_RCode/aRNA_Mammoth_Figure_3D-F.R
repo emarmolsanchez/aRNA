@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#     Figures S4D-F. Mammoth aRNA     #
+#      Figures 3D-F. Mammoth aRNA     #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -13,9 +13,9 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Damage1 = read.table("Figure_S4D_Table.txt", header=T)
-Damage4 = read.table("Figure_S4E_Table.txt", header=T)
-Damage10 = read.table("Figure_S4F_Table.txt", header=T)
+Damage1 = read.table("Figure_3D_Table.txt", header=T)
+Damage4 = read.table("Figure_3E_Table.txt", header=T)
+Damage10 = read.table("Figure_3F_Table.txt", header=T)
 
 
 
@@ -24,7 +24,7 @@ Damage10 = read.table("Figure_S4F_Table.txt", header=T)
 setwd("") #Insert path to output Figure PDFs
 
 #Figure S4D
-pdf("aRNA_Mammoth_Figure_S4D.pdf", height = 40/25.4, width = 82.5/25.4)
+pdf("aRNA_Mammoth_Figure_3D.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(data=Damage1) +
   geom_line(aes(x=z, y=CT5), color="red3", linewidth=0.5) +
   
@@ -57,7 +57,7 @@ dev.off()
 
 
 #Figure S4E
-pdf("aRNA_Mammoth_Figure_S4E.pdf", height = 40/25.4, width = 82.5/25.4)
+pdf("aRNA_Mammoth_Figure_3E.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(data=Damage4) +
   geom_line(aes(x=z, y=CT5), color="red3", linewidth=0.5) +
   
@@ -90,7 +90,7 @@ dev.off()
 
 
 #Figure S4F
-pdf("aRNA_Mammoth_Figure_S4F.pdf", height = 40/25.4, width = 82.5/25.4)
+pdf("aRNA_Mammoth_Figure_3F.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(data=Damage10) +
   geom_line(aes(x=z, y=CT5), color="red3", linewidth=0.5) +
   
