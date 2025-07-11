@@ -12,7 +12,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Counts = read.delim("Figure1I_Table.txt", header=T)
+Counts = read.delim("Figure_1I_Table.txt", header=T)
 Counts$Type = factor(Counts$Type, levels=c("Exonic", "Intronic", "Intergenic"))
 Counts$ID = factor(Counts$ID, levels = c("Mammoth1", "Mammoth4", "Mammoth10"))
 Counts$Color = factor(Counts$Color, levels = c("#5D987B", "mediumpurple", "orange2"))
