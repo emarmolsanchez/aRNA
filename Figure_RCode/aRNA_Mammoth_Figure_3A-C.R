@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#     Figures S4A-C. Mammoth aRNA     #
+#      Figures 3A-C. Mammoth aRNA     #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -13,9 +13,9 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Sample1 = read.table("Figure_S4A_Table.txt", header=T)
-Sample4 = read.table("Figure_S4B_Table.txt", header=T)
-Sample10 = read.table("Figure_S4C_Table.txt", header=T)
+Sample1 = read.table("Figure_3A_Table.txt", header=T)
+Sample4 = read.table("Figure_3B_Table.txt", header=T)
+Sample10 = read.table("Figure_3C_Table.txt", header=T)
 
 
 
@@ -24,7 +24,7 @@ Sample10 = read.table("Figure_S4C_Table.txt", header=T)
 setwd("") #Insert path to output Figure PDFs
 
 #Figure S4A1
-pdf("aRNA_Mammoth_Figure_S4A1.pdf", height = 40/25.4, width = 41.25/25.4)
+pdf("aRNA_Mammoth_Figure_3A1.pdf", height = 40/25.4, width = 41.25/25.4)
 ggplot(data=Sample1) +
   geom_line(aes(x=X1, y=CT5), color="red3", linewidth=0.3) +
   geom_line(aes(x=X1, y=CT_CpG_5), color="red3", linewidth=0.3, linetype="twodash") +
@@ -53,7 +53,7 @@ dev.off()
 
 
 #Figure S4A2
-pdf("aRNA_Mammoth_Figure_S4A2.pdf", height = 40/25.4, width = 41.25/25.4)
+pdf("aRNA_Mammoth_Figure_3A2.pdf", height = 40/25.4, width = 41.25/25.4)
 ggplot(data=Sample1) +
   geom_line(aes(x=X1, y=GA3), color="cornflowerblue", linewidth=0.3) +
   geom_line(aes(x=X1, y=GA_CpG_3), color="cornflowerblue", linewidth=0.3, linetype="twodash") +
@@ -83,7 +83,7 @@ dev.off()
 
 
 #Figure S4B1
-pdf("aRNA_Mammoth_Figure_S4B1.pdf", height = 40/25.4, width = 41.25/25.4)
+pdf("aRNA_Mammoth_Figure_3B1.pdf", height = 40/25.4, width = 41.25/25.4)
 ggplot(data=Sample4) +
   geom_line(aes(x=X1, y=CT5), color="red3", linewidth=0.3) +
   geom_line(aes(x=X1, y=CT_CpG_5), color="red3", linewidth=0.3, linetype="twodash") +
@@ -112,7 +112,7 @@ dev.off()
 
 
 #Figure S4B2
-pdf("aRNA_Mammoth_Figure_S4B2.pdf", height = 40/25.4, width = 41.25/25.4)
+pdf("aRNA_Mammoth_Figure_3B2.pdf", height = 40/25.4, width = 41.25/25.4)
 ggplot(data=Sample4) +
   geom_line(aes(x=X1, y=GA3), color="cornflowerblue", linewidth=0.3) +
   geom_line(aes(x=X1, y=GA_CpG_3), color="cornflowerblue", linewidth=0.3, linetype="twodash") +
@@ -142,7 +142,7 @@ dev.off()
 
 
 #Figure S4C1
-pdf("aRNA_Mammoth_Figure_S4C1.pdf", height = 40/25.4, width = 41.25/25.4)
+pdf("aRNA_Mammoth_Figure_3C1.pdf", height = 40/25.4, width = 41.25/25.4)
 ggplot(data=Sample10) +
   geom_line(aes(x=X1, y=CT5), color="red3", linewidth=0.3) +
   geom_line(aes(x=X1, y=CT_CpG_5), color="red3", linewidth=0.3, linetype="twodash") +
@@ -171,7 +171,7 @@ dev.off()
 
 
 #Figure S4C2
-pdf("aRNA_Mammoth_Figure_S4C2.pdf", height = 40/25.4, width = 41.25/25.4)
+pdf("aRNA_Mammoth_Figure_3C2.pdf", height = 40/25.4, width = 41.25/25.4)
 ggplot(data=Sample10) +
   geom_line(aes(x=X1, y=GA3), color="cornflowerblue", linewidth=0.3) +
   geom_line(aes(x=X1, y=GA_CpG_3), color="cornflowerblue", linewidth=0.3, linetype="twodash") +
