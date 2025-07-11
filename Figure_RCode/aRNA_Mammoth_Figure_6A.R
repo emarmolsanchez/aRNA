@@ -111,7 +111,7 @@ legend_border = c("#DB6443","plum","#F0C57F","goldenrod3", "goldenrod4", "lightb
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure 4C
+#Figure 6A
 pdf("aRNA_Mammoth_Figure_6A.pdf", height = 70/25.4, width = 82.5/25.4)
 ggplot(UMAP_table, aes(x=UMAP1, y=UMAP2, fill=Color, starshape=Shape)) + 
   geom_star(size=UMAP_table$Size, color= color_final, alpha=UMAP_table$Alpha) + 
