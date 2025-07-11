@@ -86,7 +86,7 @@ UMAP_table$Color = factor(UMAP_table$Color, levels=c("#DB6443","plum","#F0C57F",
                                                      "rosybrown2","lightskyblue3","lightgoldenrod1","lightgoldenrod3","darkseagreen2","darkolivegreen3","darkseagreen4"))
 UMAP_table$Shape = factor(UMAP_table$Shape, levels=c(15, 11, 23, 30))
 UMAP_table$Size = c(rep(2, 104), rep(4, 7))
-UMAP_table$Alpha = c(rep(1, 111))
+UMAP_table$Alpha = c(rep(0.5, 111))
 
 
 
@@ -111,7 +111,7 @@ setwd("") #Insert path to output Figure PDFs
 #Figure S7A
 pdf("aRNA_Mammoth_Figure_S7A.pdf", height = 70/25.4, width = 82.5/25.4)
 ggplot(UMAP_table, aes(x=UMAP1, y=UMAP2, fill=Color, starshape=Shape)) + 
-  geom_star(size=UMAP_table$Size, color= color_final) + 
+  geom_star(size=UMAP_table$Size, color= color_final, alpha=UMAP_table$Alpha) + 
   
   scale_fill_manual(labels = c("Skeletal muscle", "Heart", "Skin", "Liver", "Lung", "Kidney", "Brain", "Testis", "Ovary",
                                "Placenta", "Cartilage", "Adipose tissue", "Bone marrow", "Lymph node", "Thyroid gland", "Salivary gland"),
