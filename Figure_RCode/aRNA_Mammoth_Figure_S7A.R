@@ -86,7 +86,7 @@ UMAP_table$Color = factor(UMAP_table$Color, levels=c("#DB6443","plum","#F0C57F",
                                                      "rosybrown2","lightskyblue3","lightgoldenrod1","lightgoldenrod3","darkseagreen2","darkolivegreen3","darkseagreen4"))
 UMAP_table$Shape = factor(UMAP_table$Shape, levels=c(15, 11, 23, 30))
 UMAP_table$Size = c(rep(2, 104), rep(4, 7))
-UMAP_table$Alpha = c(rep(0.5, 111))
+UMAP_table$Alpha = c(rep(0.5, 104), rep(1, 7))
 
 
 
