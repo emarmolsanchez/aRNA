@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#      Figures S4G. Mammoth aRNA      #
+#       Figures 3G. Mammoth aRNA      #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -13,8 +13,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-prob_S1 = read.table("Figure_S4G_Table1.txt")
-prob_S4 = read.table("Figure_S4G_Table2.txt")
+prob_S1 = read.table("Figure_3G_Table1.txt")
+prob_S4 = read.table("Figure_3G_Table2.txt")
 
 
 
@@ -23,7 +23,7 @@ prob_S4 = read.table("Figure_S4G_Table2.txt")
 setwd("") #Insert path to output Figure PDFs
 
 #Figure S4G1
-pdf("aRNA_Mammoth_Figure_S4G1.pdf", height = 40/25.4, width = 82.5/25.4)
+pdf("aRNA_Mammoth_Figure_3G1.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(prob_S1, aes(x = V2)) +
   stat_bin(geom = "bar", bins=200, fill="red3") +
   
@@ -54,7 +54,7 @@ dev.off()
 
 
 #Figure S4G2
-pdf("aRNA_Mammoth_Figure_S4G2.pdf", height = 40/25.4, width = 82.5/25.4)
+pdf("aRNA_Mammoth_Figure_3G2.pdf", height = 40/25.4, width = 82.5/25.4)
 ggplot(prob_S4, aes(x = V2)) +
   stat_bin(geom = "bar", bins=100, fill="red3") +
   
