@@ -39,7 +39,7 @@ Atlas_melted$genes = factor(Atlas_melted$genes, levels=genes)
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure S6B
+#Figure 5D
 pdf("aRNA_Mammoth_Figure_5D.pdf", height = 60/25.4, width = 165/25.4)
 ggplot(Atlas_melted, aes(x = genes, y = variable, fill = value)) +
   geom_tile(color = "grey60", lwd = 0.2, linetype = 1) +
