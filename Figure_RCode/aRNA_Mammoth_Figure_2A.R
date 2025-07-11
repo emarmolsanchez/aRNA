@@ -12,7 +12,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-USP9Y = read.table("Figure2A_Table.txt")
+USP9Y = read.table("Figure_2A_Table.txt")
 USP9Y$ID = rep("Mammoth1", nrow(USP9Y))
 
 
