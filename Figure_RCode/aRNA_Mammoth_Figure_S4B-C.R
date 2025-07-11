@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#     Figures S5B-C. Mammoth aRNA     #
+#     Figures S4B-C. Mammoth aRNA     #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -13,14 +13,14 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-S1_mirna = read.table("Figure_S5B_Table.txt")
+S1_mirna = read.table("Figure_S4B_Table.txt")
 colnames(S1_mirna) = c("Length")
 
 Sample = c(rep("Mammoth 1", nrow(S1_mirna)))
 Table_hist = as.data.frame(cbind(S1_mirna, Sample))
 Table_hist$Sample = factor(Table_hist$Sample, levels=c("Mammoth 1"))
 
-Damage1 = read.table("Figure_S5C_Table.txt", header=T)
+Damage1 = read.table("Figure_S4C_Table.txt", header=T)
 
 
 
@@ -28,8 +28,8 @@ Damage1 = read.table("Figure_S5C_Table.txt", header=T)
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure S5B
-pdf("aRNA_Mammoth_Figure_S5B.pdf", height = 40/25.4, width = 75/25.4)
+#Figure S4B
+pdf("aRNA_Mammoth_Figure_S4B.pdf", height = 40/25.4, width = 75/25.4)
 ggplot(Table_hist, aes(x = Length, y = after_stat(density), fill = Sample, color=Sample)) +
   geom_density(alpha = 0.6, adjust = 2, linewidth=0.2) +
   
@@ -63,8 +63,8 @@ dev.off()
 
 
 
-#Figure S5C
-pdf("aRNA_Mammoth_Figure_S5C.pdf", height = 40/25.4, width = 75/25.4)
+#Figure S4C
+pdf("aRNA_Mammoth_Figure_S4C.pdf", height = 40/25.4, width = 75/25.4)
 ggplot(data=Damage1) +
   geom_line(aes(x=z, y=CT5), color="red3", linewidth=0.5) +
   
