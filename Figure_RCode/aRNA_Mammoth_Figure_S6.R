@@ -1,6 +1,6 @@
 #######################################
 #                                     #
-#      Figures S8. Mammoth aRNA       #
+#      Figures S6. Mammoth aRNA       #
 #   Dr. Emilio Marmol-Sanchez. 2025   #
 #                                     #
 #######################################
@@ -14,8 +14,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
-TTN_Expr = read.table("Figure_S8_Table3.txt", row.names=1, header=T)
+UMAP_table_PC = read.delim("Figure_S6_Table1.txt", row.names=1)
+TTN_Expr = read.table("Figure_S6_Table3.txt", row.names=1, header=T)
 
 
 #Keep Humans and Mammoth 1
@@ -45,8 +45,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figures S8
-pdf("aRNA_Mammoth_Figure_S8_TTN.pdf", height = 50/25.4, width = 82.5/25.4)
+#Figures S6
+pdf("aRNA_Mammoth_Figure_S6_TTN.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_PC, aes(x=UMAP1, y=UMAP2, fill=TTN_Expr, starshape=Shape)) + 
   geom_star(size=UMAP_table_PC$Size, alpha=UMAP_table_PC$Alpha) + 
   
@@ -96,8 +96,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
-XIRP2_Expr = read.table("Figure_S8_Table4.txt", row.names=1, header=T)
+UMAP_table_PC = read.delim("Figure_S6_Table1.txt", row.names=1)
+XIRP2_Expr = read.table("Figure_S6_Table4.txt", row.names=1, header=T)
 
 #Keep Humans and Mammoth 1
 Expr_1 = XIRP2_Expr[,1:104]
@@ -125,8 +125,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figures S8
-pdf("aRNA_Mammoth_Figure_S8_XIRP2.pdf", height = 50/25.4, width = 82.5/25.4)
+#Figures S6
+pdf("aRNA_Mammoth_Figure_S6_XIRP2.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_PC, aes(x=UMAP1, y=UMAP2, fill=XIRP2_Expr, starshape=Shape)) + 
   geom_star(size=UMAP_table_PC$Size, alpha=UMAP_table_PC$Alpha) + 
   
@@ -179,8 +179,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
-ACTA1_Expr = read.table("Figure_S8_Table5.txt", row.names=1, header=T)
+UMAP_table_PC = read.delim("Figure_S6_Table1.txt", row.names=1)
+ACTA1_Expr = read.table("Figure_S6_Table5.txt", row.names=1, header=T)
 
 #Keep Humans and Mammoth 1
 Expr_1 = ACTA1_Expr[,1:104]
@@ -208,8 +208,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figures S8
-pdf("aRNA_Mammoth_Figure_S8_ACTA1.pdf", height = 50/25.4, width = 82.5/25.4)
+#Figures S6
+pdf("aRNA_Mammoth_Figure_S6_ACTA1.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_PC, aes(x=UMAP1, y=UMAP2, fill=ACTA1_Expr, starshape=Shape)) + 
   geom_star(size=UMAP_table_PC$Size, alpha=UMAP_table_PC$Alpha) + 
   
@@ -262,8 +262,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
-NEB_Expr = read.table("Figure_S8_Table6.txt", row.names=1, header=T)
+UMAP_table_PC = read.delim("Figure_S6_Table1.txt", row.names=1)
+NEB_Expr = read.table("Figure_S6_Table6.txt", row.names=1, header=T)
 
 #Keep Humans and Mammoth 1
 Expr_1 = NEB_Expr[,1:104]
@@ -291,8 +291,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figures S8
-pdf("aRNA_Mammoth_Figure_S8_NEB.pdf", height = 50/25.4, width = 82.5/25.4)
+#Figures S6
+pdf("aRNA_Mammoth_Figure_S6_NEB.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_PC, aes(x=UMAP1, y=UMAP2, fill=NEB_Expr, starshape=Shape)) + 
   geom_star(size=UMAP_table_PC$Size, alpha=UMAP_table_PC$Alpha) + 
   
@@ -344,8 +344,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
-TNNC1_Expr = read.table("Figure_S8_Table7.txt", row.names=1, header=T)
+UMAP_table_PC = read.delim("Figure_S6_Table1.txt", row.names=1)
+TNNC1_Expr = read.table("Figure_S6_Table7.txt", row.names=1, header=T)
 
 #Keep Humans and Mammoth 1
 Expr_1 = TNNC1_Expr[,1:104]
@@ -373,8 +373,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figures S8
-pdf("aRNA_Mammoth_Figure_S8_TNNC1.pdf", height = 50/25.4, width = 82.5/25.4)
+#Figures S6
+pdf("aRNA_Mammoth_Figure_S6_TNNC1.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_PC, aes(x=UMAP1, y=UMAP2, fill=TNNC1_Expr, starshape=Shape)) + 
   geom_star(size=UMAP_table_PC$Size, alpha=UMAP_table_PC$Alpha) + 
   
@@ -426,8 +426,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-UMAP_table_PC = read.delim("Figure_S8_Table1.txt", row.names=1)
-TNNT1_Expr = read.table("Figure_S8_Table8.txt", row.names=1, header=T)
+UMAP_table_PC = read.delim("Figure_S6_Table1.txt", row.names=1)
+TNNT1_Expr = read.table("Figure_S6_Table8.txt", row.names=1, header=T)
 
 #Keep Humans and Mammoth 1
 Expr_1 = TNNT1_Expr[,1:104]
@@ -455,8 +455,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figures S8
-pdf("aRNA_Mammoth_Figure_S8_TNNT1.pdf", height = 50/25.4, width = 82.5/25.4)
+#Figures S6
+pdf("aRNA_Mammoth_Figure_S6_TNNT1.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_PC, aes(x=UMAP1, y=UMAP2, fill=TNNT1_Expr, starshape=Shape)) + 
   geom_star(size=UMAP_table_PC$Size, alpha=UMAP_table_PC$Alpha) + 
   
@@ -508,8 +508,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-UMAP_table_small = read.delim("Figure_S8_Table2.txt", row.names=1)
-MIR1_Expr = read.table("Figure_S8_Table9.txt", row.names=1, header=T)
+UMAP_table_small = read.delim("Figure_S6_Table2.txt", row.names=1)
+MIR1_Expr = read.table("Figure_S6_Table9.txt", row.names=1, header=T)
 
 
 #Keep Humans and Mammoth 1
@@ -543,8 +543,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figures S8
-pdf("aRNA_Mammoth_Figure_S8_MIR1.pdf", height = 50/25.4, width = 82.5/25.4)
+#Figures S6
+pdf("aRNA_Mammoth_Figure_S6_MIR1.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_small, aes(x=UMAP1, y=-UMAP2, fill=MIR1_Expr, starshape=Shape)) + 
   geom_star(size=UMAP_table_small$Size, alpha=UMAP_table_small$Alpha) + 
   
@@ -597,8 +597,8 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-UMAP_table_small = read.delim("Figure_S8_Table2.txt", row.names=1)
-MIR122_Expr = read.table("Figure_S8_Table10.txt", row.names=1, header=T)
+UMAP_table_small = read.delim("Figure_S6_Table2.txt", row.names=1)
+MIR122_Expr = read.table("Figure_S6_Table10.txt", row.names=1, header=T)
 
 
 #Keep Humans and Mammoth 1
@@ -632,8 +632,8 @@ axis <- ggh4x::guide_axis_truncated(
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figures S8
-pdf("aRNA_Mammoth_Figure_S8_MIR122.pdf", height = 50/25.4, width = 82.5/25.4)
+#Figures S6
+pdf("aRNA_Mammoth_Figure_S6_MIR122.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(UMAP_table_small, aes(x=UMAP1, y=-UMAP2, fill=MIR122_Expr, starshape=Shape)) + 
   geom_star(size=UMAP_table_small$Size, alpha=UMAP_table_small$Alpha) + 
   
