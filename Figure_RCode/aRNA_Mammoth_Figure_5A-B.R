@@ -29,7 +29,7 @@ Count_Cov_NC = subset(Count_Cov_NC, Count_Cov_NC$Coverage>=0.05)
 
 setwd("") #Insert path to output Figure PDFs
 
-#Figure 4A-B
+#Figure 5A-B
 pdf("aRNA_Mammoth_Figure_5A.pdf", height = 50/25.4, width = 82.5/25.4)
 ggplot(Count_Cov_PC, aes(x=Coverage, y=log10(Count+1))) +
   geom_point(size=1.5, color="#DB6443", alpha=0.5) +
