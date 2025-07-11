@@ -13,10 +13,10 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Align = read.delim("Figure_S2A.txt", header=T)
+Align = read.delim("Figure_S2A_Table.txt", header=T)
 Align$Reference = factor(Align$Reference, levels=c("Mammoth 10 3D-guided", "mEleMax1"))
 
-Length = read.delim("Figure_S2B.txt", header=T)
+Length = read.delim("Figure_S2B_Table.txt", header=T)
 Length$Reference = factor(Length$Reference, levels=c("Mammoth 10 3D-guided", "mEleMax1"))
 
 
