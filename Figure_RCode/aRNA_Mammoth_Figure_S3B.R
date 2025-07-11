@@ -14,7 +14,7 @@ setwd("") #Insert path to Figure auxiliary files
 
 
 
-Table_Transcripts = read.table("Figure_S3B_Table.txt", header=T)
+Table_Transcripts = read.delim("Figure_S3B_Table.txt", header=T)
 Table_Transcripts$ID = factor(Table_Transcripts$ID, levels=c("Mammoth 1", "Mammoth 4", "Mammoth 10"))
 Table_Transcripts$Type = factor(Table_Transcripts$Type, levels=c("Protein-coding mRNAs", "rRNAs", "tRNAs", "snRNAs",
                                                                  "snoRNAs", "lncRNAs"))
