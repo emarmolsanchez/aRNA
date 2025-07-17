@@ -14,7 +14,7 @@ Metagenomics and metatranscriptomics interactive `.tml` files are available in t
 ## Ancient RNA pipeline
 Before processing aRNA sequencing data, users need to generate a series of annotation files from their species of interest that are required to perform alingment and gene quantification. 
 
-In order to do that, users can find `bash` scripts in the `Annotation` folder. The only file needed is a `gtf` and/or a `gff` file detailing the available gene annotation for a given species of interest. In this study, we have implemented the aRNA pipeline for both the Asian elephant ([[mEleMax1]])
+In order to do that, users can find `bash` scripts in the `Annotation` folder. The only file needed is a `gtf` and/or a `gff` file detailing the available gene annotation for a given species of interest. In this study, we have implemented the aRNA pipeline for both the Asian elephant ([mEleMax1])
 
 
 
