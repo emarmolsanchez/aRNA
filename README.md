@@ -45,11 +45,17 @@ Prior to running the `bash` scripts included in the pipeline (see `Annotation` f
 + [sambamba]
 + [UMI-tools]
 
+&nbsp;
+&nbsp;
+
 Once all the needed software is properly installed, users can download the necessary `gtf` and `gff`, as well as the `bed` annotation file for mitochondrial genes and the `fasta` file of either Asian elephant or woolly mammoth genome assemblies. Please click in this [link] to download all needed files and store them in the same folder locally on your computer. Following this, please perform the following steps:
 
 1. Run the `Script_generate_Annotation_Woolly-Mammoth.sh` and/or `Script_generate_Annotation_Asian-elephant.sh` scripts.
 2. Run the `Script_preprocessing.sh` script.
 3. Run the `Script_alignment-quantification_Woolly-Mammoth.sh` and/or `Script_alignment-quantification_Asian-elephant.sh` scripts.
+
+&nbsp;
+&nbsp;
 
 After all the pipeline has run, users will find a number of files in their folder of choice containing gene quantification, coverage and overlaps with exon-exon and exon-intron junctions.
 
