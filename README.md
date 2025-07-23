@@ -2,6 +2,17 @@
 This repository is inteded to host code scripts and files needed to reproduce the analyses and plots that form part of the paper **"Ancient RNA expression profiles of the extinct wolly mammoth"**.
 
 &nbsp;
+
+## Contact
+
+emilio.marmol.sanchez@gmail.com
+
+&nbsp;
+&nbsp;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+&nbsp;
 &nbsp;
 &nbsp;
 
