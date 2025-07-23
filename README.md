@@ -1,5 +1,5 @@
 # aRNA
-This repository is inteded to host code scripts and files needed to reproduce the analyses and plots that form part of the paper 'Ancient RNA expression profiles of the extinct wolly mammoth'.
+This repository is inteded to host code scripts and files needed to reproduce the analyses and plots that form part of the paper **"Ancient RNA expression profiles of the extinct wolly mammoth"**.
 
 &nbsp;
 &nbsp;
@@ -47,7 +47,7 @@ Prior to running the `bash` scripts included in the pipeline (see `Annotation` f
 
 &nbsp;
 &nbsp;
-*The scripts use the command `gsed` (GNU sed) typically installed in MacOS systems. If users are working on a Linux or other related environments, you can likely use sed instead. Please be aware to change all `gsed` calls to sed in all scripts allocated in the `Annotation` folder if you do not use GNU sed in your system.
+The scripts use the command `gsed` (GNU sed) typically installed in MacOS systems. If users are working on a Linux or other related environments, you can likely use sed instead. Please be aware to change all `gsed` calls to sed in all scripts allocated in the `Annotation` folder if you do not use GNU sed in your system.
 
 Once all the needed software is properly installed, users can download the necessary `gtf` and `gff`, as well as the `bed` annotation file for mitochondrial genes and the `fasta` file of either Asian elephant or woolly mammoth genome assemblies. Please click in this [link] to download all needed files and store them in the same folder locally on your computer. Following this, please perform the following steps:
 
