@@ -39,7 +39,7 @@ The gene anotation files in both `gff` and `gtf` format for the [mEleMax1] assem
 
 The gene annotation file in `gtf` format for the woolly mammoth assembly ([Sandoval-Velasco et al. 2024]) needed to run the `Script_generate_Annotation_Woolly-Mammoth.sh` script has been generated as part of the works of this study.
 
-These files are the starting point from which a series of custom annotation files are created to be later used during alingment and quantification analyses. Due to their size, they have been deposited in a Figshare online repository. Pllease download them by cliking in the following [link].
+These files are the starting point from which a series of custom annotation files are created to be later used during alingment and quantification analyses. Due to their size, they have been deposited in a Figshare online repository. Pllease download them by cliking in the following [link]. Once downloaded, please uncompress the files that are gziped with `gunzip`.
 
 Jointly with the `gtf` and `gff` annotation files, users can download already processed bowtie2 indexes for both the Asian elephant and the woolly mammoth assemblies, as well as their full genomic sequence data in `.fasta` format, mitochondrial and microRNA gene annotation in `bed` format, and aRNA sequencing data of one of the wolly mammoths used in our study in `.fastq` format.
 
