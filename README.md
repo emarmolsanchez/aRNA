@@ -88,7 +88,7 @@ After all the pipeline has run, users will find a number of files in their folde
 [mEleMax1]: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_024166365.1/
 [Sandoval-Velasco et al. 2024]: https://www.cell.com/cell/fulltext/S0092-8674(24)00642-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867424006421%3Fshowall%3Dtrue
 [DQ188829.2]: https://www.ncbi.nlm.nih.gov/nuccore/DQ188829.2/
-[link]: https://figshare.com/account/projects/229998/articles/29590415
+[link]: https://figshare.com/articles/dataset/Index_and_annotation_files/29590415
 [gffread]: https://github.com/gpertea/gffread
 [ripgrep]: https://github.com/BurntSushi/ripgrep
 [perl]: https://www.perl.org/
