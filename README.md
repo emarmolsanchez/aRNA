@@ -26,7 +26,7 @@ Please be aware to install all the needed R packages detailed at the beginning o
 &nbsp;
 
 ## Meta analyses
-Metagenomics and metatranscriptomics interactive `.tml` files are available in the `Meta` folder.
+Metagenomics and metatranscriptomics interactive `.html` files are available in the `Meta` folder.
 
 &nbsp;
 
