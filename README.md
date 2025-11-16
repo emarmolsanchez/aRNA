@@ -1,7 +1,8 @@
 # aRNA
 This repository is inteded to host code scripts and files needed to reproduce the analyses and plots that form part of the paper **"Ancient RNA expression profiles of the extinct wolly mammoth"**.
 
-Read our paper and cite our work at [Mármol-Sánchez E. et al (2025). Ancient RNA expression profiles from the extinct woolly mammoth. Cell. doi:10.1016/j.cell.2025.10.025.]
+Read our paper and cite our work at:
+[Mármol-Sánchez E. et al (2025). Ancient RNA expression profiles from the extinct woolly mammoth. Cell. doi:10.1016/j.cell.2025.10.025.]
 
 &nbsp;
 
