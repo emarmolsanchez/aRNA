@@ -1,6 +1,8 @@
 # aRNA
 This repository is inteded to host code scripts and files needed to reproduce the analyses and plots that form part of the paper **"Ancient RNA expression profiles of the extinct wolly mammoth"**.
 
+Read our paper and cite our work at [Mármol-Sánchez E. et al (2025). Ancient RNA expression profiles from the extinct woolly mammoth. Cell. doi:10.1016/j.cell.2025.10.025.]
+
 &nbsp;
 
 ## Contact
@@ -100,6 +102,7 @@ After all the pipeline has run, users will find a number of files in their folde
 [sambamba]: https://github.com/biod/sambamba
 [UMI-tools]: https://github.com/CGATOxford/UMI-tools
 
+[Mármol-Sánchez E. et al (2025). Ancient RNA expression profiles from the extinct woolly mammoth. Cell. doi:10.1016/j.cell.2025.10.025.]:https://www.cell.com/cell/fulltext/S0092-8674(25)01231-0
 
 
 
